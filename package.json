@@ -9,7 +9,11 @@
     "build": "webpack --config ./config/webpack.config.prod.js",
     "start": "webpack serve --config ./config/webpack.config.dev.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "canvas-sketch": "^0.7.4",
+    "d3-quadtree": "^3.0.1",
+    "eases": "^1.0.8"
+  },
   "devDependencies": {
     "adm-zip": "^0.5.9",
     "copy-webpack-plugin": "^9.0.1",
